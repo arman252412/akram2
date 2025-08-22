@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my second project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(87, 141, 141);
+        }
+
+        h1 {
+            text-align: center;
+            background-color: rgb(54, 50, 50);
+            color: white;
+        }
+
+        .grid {
+            display: grid;
+            justify-content: center;
+
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .width {
+            width: 50px;
+        }
+
+        .margin {
+            margin: 10px;
+        }
+
+        .padding {
+            padding: 20px;
+        }
+
+        .linespace {
+            line-height: 40px;
+        }
+
+        div button {
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(203, 77, 207);
+            border-radius: 20px;
+        }
+
+        div button:hover {
+            background-color: aqua;
+            
+        }
+
+        div textarea {
+            width: 500px;
+            padding: 10px;
+
+        }
+
+        .black {
+            color: white;
+            font-style: italic;
+        }
+
+        .text {
+            color: black;
+        }
+
+        .font {
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .inppad {
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <!-- <h1>MY FORM PROJECT </h1> -->
+        </div>
+    </header>
+    <main>
+        <fieldset>
+            <legend class="black">presonal form</legend>
+            <form class="grid  padding linespace" action="" method="post">
+                <h2 class="font center">CONTACT US</h2>
+                <label class="text" for="username">ENTER YOUR NAME:</label>
+                <input class="margin inppad " type="text" name="username" id="username"
+                    placeholder="Enter Your Username" required>
+                <label class="text" for="usergmail">ENTER YOUR GMAIL:</label>
+                <input class="inppad" type="text" name="usergmail" id="usergmail" placeholder="Enter Your Usergmail"
+                    required>
+                <label class="text" for="username">ENTER YOUR ADDRESS:</label>
+                <input class="inppad type=" text" name="username" id="username" placeholder="Enter Your Address"
+                    required>
+                <label class="text" for="username">ENTER YOUR NUMBER:</label>
+                <input class="margin inppad" type="text" name="username" id="username" placeholder="Enter Your Name"
+                    required>
+                <div>
+                    <textarea name="comment" rows="6" cols="4"
+                        id="comment">                     request your comment....</textarea>
+                </div>
+                <div>
+                    <button>submit</button><button>reset</button>
+                </div>
+            </form>
+        </fieldset>
+    </main>
+    <footer class="center margin text">&copy; copyright contact form</footer>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root {
+            --color: blue;
+            --seccolor: white;
+            --thicolor: purple;
+            --dis:flex;
+            --list:none;
+            --gap: 15px;
+            --padding:10px;
+            --justy: end;
+            --cur:pointer;
+
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        .ul {
+display: var(--dis);
+list-style: var(--list);
+gap: var(--gap);
+padding: var(--padding);
+justify-content: var(--justy)
+        }
+        .ul li{
+        cursor: var(--cur);
+        color: var(--seccolor);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="ul">
+            <li>HOME</li>
+            <li>CONTECT</li>
+            <li>ABOUT US</li>
+        </ul>
+    </nav>
+</body>
+
+</html>
